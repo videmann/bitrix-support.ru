@@ -15,14 +15,14 @@
     <title>bitrix-support.ru</title>
 </head>
 <body>
-
+    <?if($_GET['template'] == 'y'):?>
     <div class="template template--bitrix-support">
 
         <header class="bgcolor--green">
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <nav>
+                        <nav class="nav nav--desktop">
                             <ul class="d-flex flex-nowrap justify-content-between">
                                 <li><a href="#" class="link-light">Пункт меню 1</a></li>
                                 <li><a href="#" class="link-light">Пункт меню 2</a></li>
@@ -70,5 +70,7 @@
             integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
             crossorigin="anonymous"
             defer></script>
+
+    <?endif;?>
 </body>
 </html>
