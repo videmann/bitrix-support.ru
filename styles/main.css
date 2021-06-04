@@ -26,9 +26,12 @@
 }
 
 html,
-body,
-.template {
+body {
     min-height: 100%;
+}
+
+.template {
+    height: 100%;
 }
 
 .template--bitrix-support {
@@ -46,4 +49,8 @@ body,
 
 .template--bitrix-support footer {
     min-height: 300px;
+}
+
+section#hero {
+    min-height: 100vh;
 }
