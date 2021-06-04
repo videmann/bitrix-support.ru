@@ -1,3 +1,11 @@
-html, body, .template {
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+html,
+body,
+.template {
     min-height: 100%;
+}
+
+.template--bitrix-support {
+    font-family: 'PT Sans', sans-serif;
 }
