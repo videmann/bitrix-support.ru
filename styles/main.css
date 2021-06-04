@@ -12,6 +12,18 @@
 .bgcolor--light_grey {
     background-color: #dae1e7;
 }
+.color--dark_blue {
+    color: #142850;
+}
+.color--blue {
+    color: #27496d;
+}
+.color--green {
+    color: #00909e;
+}
+.color--light_grey {
+    color: #dae1e7;
+}
 
 html,
 body,
