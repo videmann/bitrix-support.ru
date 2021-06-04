@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
+.bgcolor--dark_blue {
+    background-color: #142850;
+}
+.bgcolor--blue {
+    background-color: #27496d;
+}
+.bgcolor--green {
+    background-color: #00909e;
+}
+.bgcolor--light_grey {
+    background-color: #dae1e7;
+}
+
 html,
 body,
 .template {
@@ -8,4 +21,17 @@ body,
 
 .template--bitrix-support {
     font-family: 'PT Sans', sans-serif;
+}
+
+.template--bitrix-support header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100px;
+    z-index: 3;
+}
+
+.template--bitrix-support footer {
+    min-height: 300px;
 }
